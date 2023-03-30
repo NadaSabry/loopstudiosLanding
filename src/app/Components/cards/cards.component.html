@@ -5,12 +5,12 @@
     </div>
     <div class="allCards">
         <ng-container *ngFor="let card of cardDate">
-            <div class="card img_desktop" style="background-image: url('/assets/desktop/{{card.imgURL}}');">
+            <div class="card img_desktop" style="background-image: url('../assets/desktop/{{card.imgURL}}');">
                 <div class="card-cover">
                     <div class="card-txt">{{card.text|uppercase}}</div>
                 </div>
             </div>
-            <div class="card img_mobile" style="background-image: url('/assets/mobile/{{card.imgURL}}');">
+            <div class="card img_mobile" style="background-image: url('../assets/mobile/{{card.imgURL}}');">
                 <div class="card-cover">
                     <div class="card-txt">{{card.text|uppercase}}</div>
                 </div>
