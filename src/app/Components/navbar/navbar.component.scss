@@ -33,10 +33,6 @@
     }
 }
 .landMark{
-    color: var(--White);
-    font-weight: 400;
-    font-size: 30px;
-    font-family:'Alata';
     @media (max-width: 375px) {
       display: flex;
       justify-content: space-between;
@@ -63,7 +59,6 @@
     &-btn:hover{
         border-bottom: 2px solid var(--White);
     }
-
 }
 
 .box{
