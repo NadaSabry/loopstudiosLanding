@@ -1,0 +1,84 @@
+.main{
+    width:100%;
+    height: 600px;
+    background-image: url('/assets/desktop/image-hero.jpg');
+    background-size:cover;
+    //background-size:contain;
+    @media (max-width: 375px) {
+        background-image: url('/assets/mobile/image-hero.jpg');
+        height: 667px;
+    }
+}
+.icon{
+    @media (min-width: 376px) {
+        display: none;
+    }  
+}
+.container{
+    width:100%;
+    height: 600px;
+    background-color: rgb(0,0,0,0.3);
+    @media (max-width: 375px) {
+        height: 667px;
+    }  
+}
+.nav{
+    //background-color: rgb(150,3,0,0.5);
+    padding: 5% 8%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    @media (max-width: 375px) {
+        grid-template-columns: 1fr;
+        padding: 10% 8%;
+    }
+}
+.landMark{
+    color: var(--White);
+    font-weight: 400;
+    font-size: 30px;
+    font-family:'Alata';
+    @media (max-width: 375px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+}
+.route{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    @media (max-width: 375px) {
+        grid-template-columns: 1fr;
+        justify-items: start;
+        background-color: var(--Black);
+        display: none;
+    }
+    align-items: center;
+    justify-items: center;
+    &-btn{
+      text-decoration: none;
+      color:var(--White);
+      font-size: 15px;
+      padding-bottom: 5px;
+    }
+    &-btn:hover{
+        border-bottom: 2px solid var(--White);
+    }
+
+}
+
+.box{
+   font-family: 'Josefin Sans';
+   font-weight: 300;
+   font-size: 60px; 
+   color:var(--White);
+   width:35%;
+   padding: 2%;
+   border: 2px solid;
+   margin: 4% 8%;
+   @media (max-width: 375px) {
+    width:75%;
+    font-size: 40px; 
+    margin: 40% 6%;
+    padding: 5%;
+}
+}
