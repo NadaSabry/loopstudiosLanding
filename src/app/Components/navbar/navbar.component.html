@@ -1,0 +1,23 @@
+<div *ngIf="!flag" class="main">
+    <div class="container">
+        <div class="nav">
+            <div class="landMark">
+                loopstudios
+                <span class="fa fa-bars icon" style="color: #ffffff; font-size:25px;" (click)="tagger()"></span>
+            </div>
+            <div  class="route">
+                <a class="route-btn" href="#">About</a>
+                <a class="route-btn" href="#">Careers</a>    
+                <a class="route-btn" href="#">Events</a>
+                <a class="route-btn" href="#">Products</a>
+                <a class="route-btn" href="#">Support</a>
+            </div>
+        </div>
+        <div class="box">
+            {{ "Immersive experiences that deliver" | uppercase }}  
+        </div>
+    </div>
+</div>
+<div *ngIf="flag">
+    <app-list (closeEvent)="changeFlag($event)" ></app-list>
+</div>

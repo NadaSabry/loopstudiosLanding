@@ -1,0 +1,32 @@
+.main{
+    background-color: black;
+    height: 667px;
+    width:100%;
+}
+.landMark{
+    color: var(--White);
+    font-weight: 400;
+    font-size: 30px;
+    font-family:'Alata';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10% 8%
+}
+.route{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    padding:25% 8%;
+    &-btn{
+        text-decoration: none;
+        font-weight: 300;
+        font-family: 'Josefin Sans';
+        font-size: 25px;
+        color:var(--White);
+        padding: 12px 0px;
+      }
+      &-btn:hover{
+        border-bottom: 2px solid var(--White);
+    }
+}
