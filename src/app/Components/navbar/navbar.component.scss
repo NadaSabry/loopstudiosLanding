@@ -4,12 +4,12 @@
     background-image: url('^assets/desktop/image-hero.jpg');
     background-size:cover;
     //background-size:contain;
-    @media (max-width: 375px) {
+    @media (max-width: 955px) {
         background-image: url('^assets/mobile/image-hero.jpg');
     }
 }
 .icon{
-    @media (min-width: 376px) {
+    @media (min-width: 656px) {
         display: none;
     }  
 }
@@ -23,13 +23,13 @@
     padding: 5% 8%;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    @media (max-width: 375px) {
+    @media (max-width: 655px) {
         grid-template-columns: 1fr;
         padding: 10% 8%;
     }
 }
 .landMark{
-    @media (max-width: 375px) {
+    @media (max-width: 955px) {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -38,7 +38,7 @@
 .route{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    @media (max-width: 375px) {
+    @media (max-width: 655px) {
         grid-template-columns: 1fr;
         justify-items: start;
         background-color: var(--Black);
@@ -66,10 +66,10 @@
    padding: 2%;
    border: 2px solid;
    margin: 5% 8%;
-   @media (max-width: 375px) {
+   @media (max-width: 655px) {
     width:75%;
     font-size: 40px; 
     margin: 40% 6%;
     padding: 6%;
-}
+   }
 }

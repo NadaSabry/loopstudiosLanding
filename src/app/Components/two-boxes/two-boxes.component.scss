@@ -1,27 +1,28 @@
 .container{
     margin: 10% 10% 2% 10%;
     height: 500px;
-    @media (max-width:375px){
-        margin: 30% 8%;
+    @media (max-width:655px){
+        margin: 40% 8%;
     }
 }
 .box1{
     img{
-        @media (max-width:375px){
-            width:315px;
+        @media (max-width:655px){
+            width: 90%;
+            margin: 5%
         }
         width:600px;
         height: auto;
     }
-    @media (max-width:375px){
+    @media (max-width:655px){
         margin-bottom: 10%;
-        width:315px;
+        width: 100%;
     }
     width:600px;
 }
 .box2{
     //to make the two boxes overlaping
-    @media (min-width:376px) {
+    @media (min-width:656px) {
         position: relative;
         top: -260px;
         left: 470px;
@@ -44,14 +45,15 @@
         margin-top: 5%;
     }
 }
-@media (max-width:375px){
+@media (max-width:655px){
     .box2{
-       width:310px;
+        width: 100%;
        .title{
-        font-size: 30px;
+           margin: 3%;
+          font-size: 195%;
        }
        p{
-        line-height: 20px;
+        line-height: 150%;
         font-size: 16px;
         text-align: center;
        }
