@@ -1,5 +1,5 @@
 .foot{
-    margin-top: 100px;
+    margin-top: 150px;
     box-sizing: border-box;
     background-color: var(--Black);
     width: 100%;
@@ -75,7 +75,7 @@
 }
 .rights4{
     grid-area: righ4; 
-    color: var(--Very-Dark-Gray);
+    color: var(--Dark-Gray);
     @media (min-width:376px) {
         justify-self: end;
     }
